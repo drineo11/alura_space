@@ -142,6 +142,11 @@ table {
     margin-bottom: 1.5rem;
     position: relative;
     width: 450px;
+    transition: transform .2s; /* Animation */
+}
+
+.card:hover {
+    transform: scale(1.1);
 }
 
 .card__imagem {
