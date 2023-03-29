@@ -5,4 +5,3 @@ def login(request):
 
 def cadastro(request):
     return render(request, "usuarios/cadastro.html")
-#test
